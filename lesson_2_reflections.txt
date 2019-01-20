@@ -1,0 +1,40 @@
+What happens when you initialize a repository?
+Se crea el archivo .git que son los metadatos necesarios para que git funcione
+Why do you need to do it?
+Porque se debe crear el repositorio para poder hacer uso del manejo de control de versiones.
+
+How is the staging area different from the working directory and the repository? 
+*El área de preparación es un archivo, generalmente contenido en tu directorio de Git, que almacena información acerca de lo que va a ir en tu próxima confirmación y el directorio es donde se almacenan los metadatos y la base de datos de objetos para tu proyecto. Es la parte más importante de Git, y es lo que se copia cuando clonas un repositorio desde otra computadora.
+
+What value do you think it offers?
+Permite conocer los archivos que al estar en estar en esta de preparacion ya estamos listos para hacer un respaldo de nuestro proyecto
+
+How can you use the staging area to make sure you have one commit per logical change? 
+
+Realizando un "git status"
+
+What are some situations when branches would be helpful in keeping your history
+organized? 
+
+En empresas donde se realiza desarrollo de software por equipos 
+
+How would branches help?
+Porque es posible que todas las ramas creadas evolucionen al mismo tiempo, pudiendo el desarrollador pasar de una rama a otra en cualquier momento según las necesidades del proyecto. Si en un momento dado el trabajo con una rama nos ha resultado interesante, útil y se encuentra estable, entonces podemos fusionar ramas para incorporar las modificaciones del proyecto en su rama principal y de este modo el buen funcionamiento y desarrollo del proyecto no se vera afectado
+
+How do the diagrams help you visualize the branch structure?
+Me permite visualizar las ramas que han sido fusionadas y ver la jerarquia de cada una ya que la rama principal es la "master".
+
+What is the result of merging two branches together? 
+Al fusionar dos ramas en una los cambios de ambas ramas se pueden combinar para formar una solo version del proyecto.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+*Ventajas
+1. Las ramas son una de las principales utilidades que disponemos en Git para llevar un mejor control del código.
+2.Git no los almacena de forma incremental (guardando solo diferencias), sino que los almacena como una serie de instantáneas (copias puntuales de los archivos completos, tal y como se encuentran en ese momento).
+3. Se eliminan los commits de fusion que no son necesarios , por otra parte se tiene un historial del proyecto totalmente lineal.
+
+*Desventajas
+1. Al realizar la fusion de las ramas muchas veces al trabajar en equipo los demas colaboradores podria que no entiendan el seguimiento del proyecto.
+2. No se pueden ver los cambios realizados del nivel superior a la funcionalidad , se pierde el contexto que proporcionan los commits de fusion. 

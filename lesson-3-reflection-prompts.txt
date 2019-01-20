@@ -1,0 +1,28 @@
+when would you want to create a remote repository rather than keeping all your work local?
+
+Cuando deseo desarrollar un proyecto en colaboracion con otras personas para poder trabajar de manera mas facil o cuando deseo compartir lo que estoy realizando 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Porque de esta manera yo puedo tener el control y saber en que momento deseo guardar cambios y asi tener un mejor manejo del control de versiones en el momento que yo quiera.
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+
+Cuando hacemos un clon de un repositorio, te bajas una copia del mismo a tu máquina. Empiezas a trabajar, haces modificaciones y haces un push. Cuando haces el push estás modificando el repositorio que has clonado.
+
+Cuando haces un fork de un repositorio, se crea un nuevo repositorio en tu cuenta de Github con una URL diferente (fork). Acto seguido tienes que hacer un clon de esa copia sobre la que empiezas a trabajar de forma que cuando haces push, estás modificando TU COPIA (fork). El repositorio original sigue intacto.
+
+Las ramas son distintas versiones que se van realizando a lo largo del desarrollo del proyecto distintas al original pero que permiten fusionar distintas ramas.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Es que funciona como un respaldo en donde se tiene la ultima version que es funcional del proyecto apartir de la cual se pueden realizar nuevos cambios.
+ 
+How would you collaborate without using Git or GitHub?   
+Pues los medios en los cuales colaboria seria por medio de Dropbox o Google Drive.
+
+¿Qué beneficios tiene cada enfoque?
+
+El trabajar en distintas ramas permite que se tenga un mejor control en grandes proyectos que involucran un buen numero de colaboradores evitando de esta manera que se hagan cambios que puedan afectar la funcionalidad del proyecto. De esta manera cuando se realicen cambios en el master es porque son cambios que realmente funcionan de manera correcta.

@@ -1,0 +1,50 @@
+¿Cómo quieres usar Git?
+   Como un control de versiones para los trabajos realizados durante clases
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    Me ayudo ya que es mas facil encontrar los errores entre dos archivos porque permite visualizar la parte en la cual hubo cambios y asi darme cuenta cual fue el error que hizo que dejara de funcionar el archivo
+   
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Me serviria ya que al usar el manejo de versiones puedo irme dando cuenta de los posibles errores que he ido teniendo a lo largo del desarrollo de un proyecto lo que me hace ser mas eficiente y ahorrar tiempo
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    *Ventajas
+    1.Yo elijo en que momento creo conveniente guardar cierta version y asi reducir memoria.
+    2.Permite tener un mejor manejo de las versiones de mis trabajos.
+    3.Se pueden documentar las versiones realizadas 
+
+    *Desventajas
+    1.Si por algun error la computadora se llega a apagar y aun no haz guardado la version tu informacion se perdera.
+    2.Debes ser cuidadoso y debes guardar las versiones cada que consideres necesario sino la informacion no quedara guardada
+  
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Para que asi sea mas facil hacer comparacion entre los archivos y conocer los cambios que se han realizado a cada archivo o a cada version creada 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    El comando git log es utilizado para ver los cambios recientes guardados (commit) , asi mismo se pueden ver los los mensajes que estan relacionados con cada commit , el comando git diff los puedo utilizar para comparar dos versiones del proyecto utilizando los id de las versiones que se quieran comparar
+
+¿Cuáles crees que son los pros y los contras de elegir manualmente cuándo crear un compromiso, como lo haces en Git, y tener las versiones guardadas automáticamente, como lo hace Google Docs?
+    
+    Una ventaja esque cada persona elige cuando hacer su respaldo pero si por alguna razon llega a olvidar hacerlo genera un problema sin embargo al generarse automaticamente el guardado no se presenta este problema pero puede serutiliza memoria de más
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Si al estar haciendo un proyecto , la version nueva no funciona como esperaba , siempre puedo regresar a la version anterior en donde el proyecto funcionaba 
+
+Now that you have your workspace set up,  what do you want to try using Git for?
+
+Git es una herramienta muy util de trabajo para el desarrollo desoftware ya que permite el control de versiones y el trabajo colaborativo ya que podemos trabajar con otras personas remotamente sin la necesidad de estar fisicamente e ir conociendo los avances de cada uno.
+
+¿Por qué cree que algunos sistemas de control de versiones, como Git, permiten guardar varios archivos en un solo coomit, mientras que otros, como Google Docs, tratan cada archivo por separado?
+
+Para que asi sea mas facil hacer comparacion entre los archivos y conocer los cambios que se han realizado a cada archivo o a cada version creada 
+
+¿Cómo puedes usar los comandos git log y git diff para ver el historial de archivos?
+
+El comando git log es utilizado para ver los cambios recientes guardados (commit) , asi mismo se pueden ver los los mensajes que estan relacionados con cada commit , el comando git diff los puedo utilizar para comparar dos versiones del proyecto utilizando los id de las versiones que se quieran comparar
